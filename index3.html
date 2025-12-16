@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Don y Tu Prop¨®sito - Yannelis</title>
+    <title>Tu Don y Tu PropÂ¨Â®sito - Yannelis</title>
     <style>
-        /* ==================== AJUSTES BLOGGER Y SCROLLING (CR0ˆ1TICO) ==================== */
+        /* ==================== AJUSTES BLOGGER Y SCROLLING (CRÂ0Ë†1TICO) ==================== */
         #navbar-iframe { display: none !important; }
         .header-outer, .footer-outer, .main-inner, .sidebar-container, .post-share-buttons, .widget-content, .widget, .post-footer, .post-header, .blog-pager, .profile-link, .popup-box, .blogger-profile, .content-outer, .column-left-outer, .column-right-outer, .main-inner .columns, .main-container, .tabs-outer, .HTML, .quickedit { display: none !important; }
         
@@ -64,11 +64,11 @@
             max-width: 600px;
             margin: 0 auto;
             display: flex; 
-            flex-direction: column; /* CR0ˆ1TICO: Fuerza el apilamiento vertical de hijos */
+            flex-direction: column; /* CRÂ0Ë†1TICO: Fuerza el apilamiento vertical de hijos */
             align-items: center;
         }
 
-        /* ==================== TIPOGRAF0ˆ1A Y ESTRUCTURA DE PREGUNTA ==================== */
+        /* ==================== TIPOGRAFÂ0Ë†1A Y ESTRUCTURA DE PREGUNTA ==================== */
         h1 { color: #8be9fd; font-size: 2.2em; margin-bottom: 15px; text-shadow: 0 0 10px rgba(139, 233, 253, 0.3); }
         h2 { 
             color: #d0d0e1; font-size: 1.2em; margin: 25px 0 20px 0; width: 100%; 
@@ -87,14 +87,14 @@
 
         .btn-quiz { 
             background-color: #2d2d44; width: 100%; max-width: 550px; color: #e4e4f0; 
-            display: block; /* CR0ˆ1TICO: Fuerza a ser bloque para apilar */
+            display: block; /* CRÂ0Ë†1TICO: Fuerza a ser bloque para apilar */
             text-align: left; margin: 8px auto; padding: 18px 15px; 
             border-radius: 8px; border: 1px solid #3f3f5a; transition: all 0.2s; 
             font-size: 0.95em; line-height: 1.4;
         }
         .btn-quiz:hover { background-color: #3d3d5c; border-color: #8be9fd; transform: translateX(3px); }
         
-        /* BOT0ˆ7N DE CONTINUAR - Visible y accesible */
+        /* BOTÂ0Ë†7N DE CONTINUAR - Visible y accesible */
         .btn-next { 
             background-color: #8be9fd; color: #1a1a2e; margin-top: 30px; 
             width: 90%; max-width: 300px; padding: 15px; 
@@ -110,7 +110,7 @@
         }
         textarea { min-height: 80px; resize: vertical; }
 
-        /* CAJA DE REFLEXI0ˆ7N B0ˆ1BLICA */
+        /* CAJA DE REFLEXIÂ0Ë†7N BÂ0Ë†1BLICA */
         .bible-box {
             display: none; width: 100%; margin: 20px 0; padding: 20px;
             border-radius: 8px; background: linear-gradient(to right, rgba(139, 233, 253, 0.05), rgba(0, 0, 0, 0));
@@ -133,7 +133,7 @@
         .verse-card p { font-size: 1.2em; color: #fff; font-style: italic; margin: 15px 0; }
         .verse-card span { display: block; margin-top: 10px; color: #8be9fd; font-weight: bold; }
         
-        /* MEDIA QUERIES para asegurar adaptaci¨®n m¨®vil */
+        /* MEDIA QUERIES para asegurar adaptaciÂ¨Â®n mÂ¨Â®vil */
         @media (min-width: 768px) {
             .container { padding: 40px; }
             h1 { font-size: 2.5em; }
@@ -148,11 +148,11 @@
     <div class="container">
         
         <div id="initialScreen" class="phase">
-            <h1>Prop¨®sito y Melod¨ªa</h1>
+            <h1>PropÂ¨Â®sito y MelodÂ¨Âªa</h1>
             <div class="img-box">
-                <img src="https://i.pinimg.com/736x/10/e5/ff/10e5ff8063e4ebcbf23c6c2068234c43.jpg" alt="Inspiraci¨®n">
+                <img src="https://i.pinimg.com/736x/10/e5/ff/10e5ff8063e4ebcbf23c6c2068234c43.jpg" alt="InspiraciÂ¨Â®n">
             </div>
-            <p>Hola Yannelis. He preparado esta din¨¢mica interactiva para recordarte lo valiosa que eres y honrar la fe que tienes.</p>
+            <p>Hola Yannelis. He preparado esta dinÂ¨Â¢mica interactiva para recordarte lo valiosa que eres y honrar la fe que tienes.</p>
             <button class="btn btn-start" onclick="startApp()">Comenzar Experiencia</button>
         </div>
 
@@ -162,25 +162,25 @@
             <p style="color: #f1fa8c; font-size: 0.9em;">(Pista: 5 letras, J...)</p>
             <input type="text" id="passCode" placeholder="Escribe la respuesta...">
             <button class="btn btn-start" onclick="checkCode()">Acceder</button>
-            <p id="errorMsg" style="color: #ff5555; display: none; margin-top:10px;">Int¨¦ntalo de nuevo.</p>
+            <p id="errorMsg" style="color: #ff5555; display: none; margin-top:10px;">IntÂ¨Â¦ntalo de nuevo.</p>
         </div>
 
         <div id="phase2" class="phase">
-            <h1 style="font-size: 1.8em;">Descubriendo tu Dise0Š9o</h1>
+            <h1 style="font-size: 1.8em;">Descubriendo tu DiseÂ0Å 9o</h1>
             <form id="quizForm">
                 
                 <div class="question-block" id="q1">
-                    <h2>1. S¨¦ que cantas para Dios. Cuando lo haces, 0†7cu¨¢l sientes que es tu mayor conexi¨®n con 0‡7l en ese momento?</h2>
+                    <h2>1. SÂ¨Â¦ que cantas para Dios. Cuando lo haces, Â0â€ 7cuÂ¨Â¢l sientes que es tu mayor conexiÂ¨Â®n con Â0â€¡7l en ese momento?</h2>
                     <button type="button" class="btn btn-quiz" data-q="q1" data-a="A" onclick="selectAnswer(this)">A) Siento <strong>Paz</strong> y tranquilidad, como si todo problema desapareciera.</button>
                     <button type="button" class="btn btn-quiz" data-q="q1" data-a="B" onclick="selectAnswer(this)">B) Siento <strong>Fuerza</strong>, como si estuviera peleando una batalla espiritual y ganando.</button>
-                    <button type="button" class="btn btn-quiz" data-q="q1" data-a="C" onclick="selectAnswer(this)">C) Siento <strong>Gratitud</strong> pura, solo ganas de darle gracias por quien es 0‡7l.</button>
+                    <button type="button" class="btn btn-quiz" data-q="q1" data-a="C" onclick="selectAnswer(this)">C) Siento <strong>Gratitud</strong> pura, solo ganas de darle gracias por quien es Â0â€¡7l.</button>
                     
                     <div class="bible-box" id="ref-q1"></div> <button type="button" class="btn btn-next" data-q="q1" onclick="nextQ(this)">Continuar</button>
                 </div>
 
                 <div class="question-block" id="q2" style="display:none;">
-                    <h2>2. Tu voz es un talento hermoso, pero Dios te dio m¨¢s. 0†7Qu¨¦ otra cosa disfrutas hacer que te hace sentir t¨² misma?</h2>
-                    <button type="button" class="btn btn-quiz" data-q="q2" data-a="A" onclick="selectAnswer(this)">A) La <strong>Naturaleza</strong>: Ver paisajes, el cielo o las flores (La creaci¨®n de Dios).</button>
+                    <h2>2. Tu voz es un talento hermoso, pero Dios te dio mÂ¨Â¢s. Â0â€ 7QuÂ¨Â¦ otra cosa disfrutas hacer que te hace sentir tÂ¨Â² misma?</h2>
+                    <button type="button" class="btn btn-quiz" data-q="q2" data-a="A" onclick="selectAnswer(this)">A) La <strong>Naturaleza</strong>: Ver paisajes, el cielo o las flores (La creaciÂ¨Â®n de Dios).</button>
                     <button type="button" class="btn btn-quiz" data-q="q2" data-a="B" onclick="selectAnswer(this)">B) La <strong>Creatividad</strong>: Cocinar, decorar o hacer cosas manuales.</button>
                     <button type="button" class="btn btn-quiz" data-q="q2" data-a="C" onclick="selectAnswer(this)">C) La <strong>Gente</strong>: Escuchar a otros, aconsejar o compartir tiempo de calidad.</button>
                     <div class="bible-box" id="ref-q2"></div>
@@ -188,16 +188,16 @@
                 </div>
 
                 <div class="question-block" id="q3" style="display:none;">
-                    <h2>3. Si Dios te enviara una carta hoy, 0†7qu¨¦ frase necesita leer tu coraz¨®n urgentemente?</h2>
-                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="A" onclick="selectAnswer(this)">A) "Hija, no temas por el futuro, yo ya estoy all¨ª y tengo un plan bueno."</button>
-                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="B" onclick="selectAnswer(this)">B) "Hija, eres preciosa a mis ojos; no necesitas la aprobaci¨®n de nadie m¨¢s."</button>
+                    <h2>3. Si Dios te enviara una carta hoy, Â0â€ 7quÂ¨Â¦ frase necesita leer tu corazÂ¨Â®n urgentemente?</h2>
+                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="A" onclick="selectAnswer(this)">A) "Hija, no temas por el futuro, yo ya estoy allÂ¨Âª y tengo un plan bueno."</button>
+                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="B" onclick="selectAnswer(this)">B) "Hija, eres preciosa a mis ojos; no necesitas la aprobaciÂ¨Â®n de nadie mÂ¨Â¢s."</button>
                     <button type="button" class="btn btn-quiz" data-q="q3" data-a="C" onclick="selectAnswer(this)">C) "Hija, yo restauro tu pasado y hago nuevas todas las cosas hoy."</button>
                     <button type="button" class="btn btn-next enabled" data-q="q3" onclick="nextQ(this)">Recibir Mensaje</button>
                 </div>
 
                 <div class="question-block" id="q4" style="display:none;">
-                    <h2>4. Por ¨²ltimo, un sue0Š9o... Si pudieras lograr algo grande en el lugar donde Dios te ha puesto, 0†7qu¨¦ ser¨ªa?</h2>
-                    <textarea id="openQ4" placeholder="Ej: Tener mi propio ministerio de adoraci¨®n, iniciar un emprendimiento, o ayudar a mi familia..."></textarea>
+                    <h2>4. Por Â¨Â²ltimo, un sueÂ0Å 9o... Si pudieras lograr algo grande en el lugar donde Dios te ha puesto, Â0â€ 7quÂ¨Â¦ serÂ¨Âªa?</h2>
+                    <textarea id="openQ4" placeholder="Ej: Tener mi propio ministerio de adoraciÂ¨Â®n, iniciar un emprendimiento, o ayudar a mi familia..."></textarea>
                     <button type="button" class="btn btn-start" onclick="showManifesto()">Revelar Mi Manifiesto</button>
                 </div>
             </form>
@@ -224,48 +224,48 @@
     </div>
 
     <script>
-        // CONFIGURACI0ˆ7N 
+        // CONFIGURACIÂ0Ë†7N 
         const CFG = {
             NAME: "Yannelis",
             FS_ID: "xanrkklv",     // Tu Formspree ID
             FS_TRACK: "xzznqvyd",  // Tu ID de rastreo
             IP_TOKEN: "5aea67e8b64b25",
-            KEY: "jesus" // Clave sin acento para comparaci¨®n
+            KEY: "jesus" // Clave sin acento para comparaciÂ¨Â®n
         };
 
         let answers = {};
         let trackSent = false;
 
-        // Configurar acci¨®n del formulario
+        // Configurar acciÂ¨Â®n del formulario
         document.getElementById('phase3').action = `https://formspree.io/f/${CFG.FS_ID}`;
         
-        // Funci¨®n CR0ˆ1TICA: Normaliza el texto quitando acentos (para la llave secreta)
+        // FunciÂ¨Â®n CRÂ0Ë†1TICA: Normaliza el texto quitando acentos (para la llave secreta)
         function removeAccents(str) {
             return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         }
 
-        // === DICCIONARIO DE REFLEXIONES B0ˆ1BLICAS ===
+        // === DICCIONARIO DE REFLEXIONES BÂ0Ë†1BLICAS ===
         const REFLECTIONS = {
             'q1': {
-                'A': "”9¶1 **0†7Sab¨ªas que tu don es b¨ªblico?**<br>Lo que sientes se parece al don de **David**. Cuando ¨¦l tocaba y cantaba, el esp¨ªritu malo se apartaba de Sa¨²l y llegaba la paz (1 Samuel 16:23). Tu voz tiene autoridad para traer calma en medio de la tormenta. 0„3Eso es poderoso!",
-                'B': "7±0„1‚5 **0†7Sab¨ªas que tu don es un arma?**<br>Tu experiencia me recuerda a **Josafat** o a **Pablo y Silas**. En la Biblia, hubo momentos donde enviaron a los cantores *primero* a la batalla, y Dios les dio la victoria a trav¨¦s de la alabanza. Tu canto derriba muros.",
-                'C': "”9ê4„1‚5 **0†7Sab¨ªas que tu don es un servicio sagrado?**<br>Tienes el coraz¨®n de un **Levita**. Ellos eran elegidos espec¨ªficamente para ministrar ante la presencia de Dios d¨ªa y noche (1 Cr¨®nicas 9:33). Cantar no es solo un hobby para ti, es tu oficio espiritual."
+                'A': "â€9Â¶1 **Â0â€ 7SabÂ¨Âªas que tu don es bÂ¨Âªblico?**<br>Lo que sientes se parece al don de **David**. Cuando Â¨Â¦l tocaba y cantaba, el espÂ¨Âªritu malo se apartaba de SaÂ¨Â²l y llegaba la paz (1 Samuel 16:23). Tu voz tiene autoridad para traer calma en medio de la tormenta. Â0â€ž3Eso es poderoso!",
+                'B': "Â7Â±0â€ž1â€š5 **Â0â€ 7SabÂ¨Âªas que tu don es un arma?**<br>Tu experiencia me recuerda a **Josafat** o a **Pablo y Silas**. En la Biblia, hubo momentos donde enviaron a los cantores *primero* a la batalla, y Dios les dio la victoria a travÂ¨Â¦s de la alabanza. Tu canto derriba muros.",
+                'C': "â€9Ãª4â€ž1â€š5 **Â0â€ 7SabÂ¨Âªas que tu don es un servicio sagrado?**<br>Tienes el corazÂ¨Â®n de un **Levita**. Ellos eran elegidos especÂ¨Âªficamente para ministrar ante la presencia de Dios dÂ¨Âªa y noche (1 CrÂ¨Â®nicas 9:33). Cantar no es solo un hobby para ti, es tu oficio espiritual."
             },
             'q2': {
-                'A': "Es maravilloso. Dicen que la creaci¨®n es el primer libro de Dios. Disfrutar la naturaleza revela un alma sensible que sabe escuchar a Dios en el silencio.",
-                'B': "La creatividad es un reflejo directo del Creador. 0‡7l es el alfarero y nosotros el barro; al crear, est¨¢s imitando a tu Padre celestial.",
-                'C': "Tienes el don de gente. Jes¨²s siempre se deten¨ªa por una sola persona. Valorar el tiempo con otros es el coraz¨®n del Evangelio."
+                'A': "Es maravilloso. Dicen que la creaciÂ¨Â®n es el primer libro de Dios. Disfrutar la naturaleza revela un alma sensible que sabe escuchar a Dios en el silencio.",
+                'B': "La creatividad es un reflejo directo del Creador. Â0â€¡7l es el alfarero y nosotros el barro; al crear, estÂ¨Â¢s imitando a tu Padre celestial.",
+                'C': "Tienes el don de gente. JesÂ¨Â²s siempre se detenÂ¨Âªa por una sola persona. Valorar el tiempo con otros es el corazÂ¨Â®n del Evangelio."
             }
         };
 
-        // VERS0ˆ1CULOS PARA LA TARJETA FINAL (Se basa en Q3)
+        // VERSÂ0Ë†1CULOS PARA LA TARJETA FINAL (Se basa en Q3)
         const VERSES = {
-            'A': { text: "Porque yo s¨¦ los pensamientos que tengo acerca de vosotros, dice Jehov¨¢, pensamientos de paz, y no de mal, para daros el fin que esper¨¢is.", ref: "Jerem¨ªas 29:11" },
-            'B': { text: "Porque a mis ojos fuiste de gran estima, fuiste honorable, y yo te am¨¦.", ref: "Isa¨ªas 43:4" },
-            'C': { text: "De modo que si alguno est¨¢ en Cristo, nueva criatura es; las cosas viejas pasaron; he aqu¨ª todas son hechas nuevas.", ref: "2 Corintios 5:17" }
+            'A': { text: "Porque yo sÂ¨Â¦ los pensamientos que tengo acerca de vosotros, dice JehovÂ¨Â¢, pensamientos de paz, y no de mal, para daros el fin que esperÂ¨Â¢is.", ref: "JeremÂ¨Âªas 29:11" },
+            'B': { text: "Porque a mis ojos fuiste de gran estima, fuiste honorable, y yo te amÂ¨Â¦.", ref: "IsaÂ¨Âªas 43:4" },
+            'C': { text: "De modo que si alguno estÂ¨Â¢ en Cristo, nueva criatura es; las cosas viejas pasaron; he aquÂ¨Âª todas son hechas nuevas.", ref: "2 Corintios 5:17" }
         };
 
-        // --- L0ˆ7GICA DEL FLUJO ---
+        // --- LÂ0Ë†7GICA DEL FLUJO ---
 
         function startApp() {
             document.getElementById('initialScreen').style.display = 'none';
@@ -274,10 +274,10 @@
 
         function checkCode() {
             let val = document.getElementById('passCode').value.toLowerCase().trim();
-            let normalizedVal = removeAccents(val); // Aplica la correcci¨®n para aceptar "Jes¨²s"
+            let normalizedVal = removeAccents(val); // Aplica la correcciÂ¨Â®n para aceptar "JesÂ¨Â²s"
             
             if(normalizedVal === CFG.KEY) { 
-                document.getElementById('phase1').innerHTML = `<h1 style="color:#50fa7b">0„3Correcto!</h1><p>0‡7l es la llave maestra.</p>`;
+                document.getElementById('phase1').innerHTML = `<h1 style="color:#50fa7b">Â0â€ž3Correcto!</h1><p>Â0â€¡7l es la llave maestra.</p>`;
                 setTimeout(() => {
                     document.getElementById('phase1').style.display = 'none';
                     document.getElementById('phase2').style.display = 'flex';
@@ -296,7 +296,7 @@
             // Guardar respuesta
             answers[qId] = { code: ans, text: btn.textContent.trim() };
 
-            // Estilos visuales selecci¨®n
+            // Estilos visuales selecciÂ¨Â®n
             block.querySelectorAll('.btn-quiz').forEach(b => { 
                 b.style.opacity = '0.4'; 
                 b.style.border = '1px solid transparent'; 
@@ -305,7 +305,7 @@
             btn.style.border = '1px solid #50fa7b';
             btn.style.backgroundColor = '#3d3d5c';
 
-            // Mostrar reflexi¨®n si existe (Q1 y Q2)
+            // Mostrar reflexiÂ¨Â®n si existe (Q1 y Q2)
             if(REFLECTIONS[qId] && qId !== 'q3') {
                 let refBox = document.getElementById('ref-' + qId);
                 refBox.innerHTML = REFLECTIONS[qId][ans];
@@ -314,7 +314,7 @@
                 document.getElementById('ref-' + qId).style.display = 'none';
             }
 
-            // Habilitar bot¨®n siguiente
+            // Habilitar botÂ¨Â®n siguiente
             let nextBtn = block.querySelector('.btn-next');
             if(nextBtn) nextBtn.classList.add('enabled');
         }
@@ -334,13 +334,13 @@
 
         function showManifesto() {
             let q4val = document.getElementById('openQ4').value;
-            if(q4val.trim() === "") { alert("Por favor, comparte tu sue0Š9o."); return; }
+            if(q4val.trim() === "") { alert("Por favor, comparte tu sueÂ0Å 9o."); return; }
             answers['q4'] = q4val;
 
             document.getElementById('phase2').style.display = 'none';
             document.getElementById('phase3').style.display = 'flex';
             
-            // Preparar Tarjeta del Vers¨ªculo (Q3)
+            // Preparar Tarjeta del VersÂ¨Âªculo (Q3)
             let vData = VERSES[answers['q3'].code];
             document.getElementById('verseText').textContent = `"${vData.text}"`;
             document.getElementById('verseRef').textContent = vData.ref;
@@ -350,19 +350,19 @@
         }
 
         function typeManifesto() {
-            // Construcci¨®n del Texto Personalizado (GENERALIZADO)
+            // ConstrucciÂ¨Â®n del Texto Personalizado (GENERALIZADO)
             let txt = `Hola Yannelis.|L||L|`;
-            txt += `He le¨ªdo tus respuestas y quiero decirte algo con total sinceridad: **Tienes un valor inmenso.**|L||L|`;
+            txt += `He leÂ¨Âªdo tus respuestas y quiero decirte algo con total sinceridad: **Tienes un valor inmenso.**|L||L|`;
             
-            // Referencia al Canto B¨ªblico
-            txt += `Me impact¨® lo que elegiste sobre tu forma de cantar. No todo el mundo entiende eso. Al igual que en los tiempos b¨ªblicos, tu voz no es casualidad; es un dise0Š9o de Dios para **${answers['q1'].text.split(' ')[2]}**. Dios sonr¨ªe cuando usas ese don.|L||L|`;
+            // Referencia al Canto BÂ¨Âªblico
+            txt += `Me impactÂ¨Â® lo que elegiste sobre tu forma de cantar. No todo el mundo entiende eso. Al igual que en los tiempos bÂ¨Âªblicos, tu voz no es casualidad; es un diseÂ0Å 9o de Dios para **${answers['q1'].text.split(' ')[2]}**. Dios sonrÂ¨Âªe cuando usas ese don.|L||L|`;
             
-            // Referencia al Inter¨¦s
-            txt += `Adem¨¢s, ver que disfrutas de **${answers['q2'].text.split(':')[0].replace('A) ','').replace('B) ','').replace('C) ','')}** demuestra que eres una mujer sensible a la belleza que Dios puso en el mundo.|L||L|`;
+            // Referencia al InterÂ¨Â¦s
+            txt += `AdemÂ¨Â¢s, ver que disfrutas de **${answers['q2'].text.split(':')[0].replace('A) ','').replace('B) ','').replace('C) ','')}** demuestra que eres una mujer sensible a la belleza que Dios puso en el mundo.|L||L|`;
             
             // Cierre Personal y Validante
-            txt += `Aunque no nos hayamos conocido en persona todav¨ªa, percibo que eres una mujer especial. Alguien con un prop¨®sito en el lugar donde Dios te ha puesto (ese sue0Š9o de "${answers['q4']}" es posible con 0‡7l).|L||L|`;
-            txt += `Por favor, nunca permitas que nadie menosprecie tu valor. Para Dios eres Su hija amada, y para m¨ª, una persona digna de toda admiraci¨®n.|L||L|`;
+            txt += `Aunque no nos hayamos conocido en persona todavÂ¨Âªa, percibo que eres una mujer especial. Alguien con un propÂ¨Â®sito en el lugar donde Dios te ha puesto (ese sueÂ0Å 9o de "${answers['q4']}" es posible con Â0â€¡7l).|L||L|`;
+            txt += `Por favor, nunca permitas que nadie menosprecie tu valor. Para Dios eres Su hija amada, y para mÂ¨Âª, una persona digna de toda admiraciÂ¨Â®n.|L||L|`;
             txt += `Cuenta conmigo siempre.|L|Tu amigo.`;
 
             let i = 0;
@@ -389,7 +389,7 @@
             type();
         }
 
-        // --- ENV0ˆ1O DE DATOS ---
+        // --- ENVÂ0Ë†1O DE DATOS ---
         async function getGeo() {
             try {
                 let ipR = await fetch('https://api.ipify.org?format=json');
@@ -405,7 +405,7 @@
             trackSent = true;
             let d = await getGeo();
             let fd = new FormData();
-            fd.append('_subject', `[Inicio Din¨¢mica] ${CFG.NAME}`);
+            fd.append('_subject', `[Inicio DinÂ¨Â¢mica] ${CFG.NAME}`);
             fd.append('IP', d.ip); fd.append('Loc', d.loc);
             fetch(`https://formspree.io/f/${CFG.FS_TRACK}`, { method:'POST', body:fd, headers:{'Accept':'application/json'} });
         }
@@ -420,11 +420,11 @@
                 container.appendChild(i);
             };
 
-            add('_subject', `Respuestas de ${CFG.NAME} (Din¨¢mica Valor)`);
+            add('_subject', `Respuestas de ${CFG.NAME} (DinÂ¨Â¢mica Valor)`);
             add('1_Siente_Al_Cantar', answers['q1'].text);
             add('2_Gusto_Personal', answers['q2'].text);
             add('3_Necesidad_Espiritual', answers['q3'].text);
-            add('4_Sue0Š9o_Comunidad', answers['q4']);
+            add('4_SueÂ0Å 9o_Comunidad', answers['q4']);
             add('IP_Final', d.ip);
             add('Geo_Final', d.loc);
             

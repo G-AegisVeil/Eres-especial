@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Don y Tu Prop贸sito - Yannelis</title>
+    <title>Tu Don y Tu Propósito - Yannelis</title>
     <style>
-        /* ==================== AJUSTES BLOGGER Y SCROLLING (CR脥TICO) ==================== */
+        /* ==================== AJUSTES BLOGGER Y SCROLLING (CRÍTICO) ==================== */
         #navbar-iframe { display: none !important; }
         .header-outer, .footer-outer, .main-inner, .sidebar-container, .post-share-buttons, .widget-content, .widget, .post-footer, .post-header, .blog-pager, .profile-link, .popup-box, .blogger-profile, .content-outer, .column-left-outer, .column-right-outer, .main-inner .columns, .main-container, .tabs-outer, .HTML, .quickedit { display: none !important; }
         
@@ -94,7 +94,7 @@
             transition: width 0.5s ease-in-out;
         }
 
-        /* ==================== TIPOGRAF脥A Y ESTRUCTURA DE PREGUNTA ==================== */
+        /* ==================== TIPOGRAFÍA Y ESTRUCTURA DE PREGUNTA ==================== */
         h1 { color: #8be9fd; font-size: 2.2em; margin-bottom: 15px; text-shadow: 0 0 10px rgba(139, 233, 253, 0.3); }
         h2 { 
             color: #d0d0e1; font-size: 1.2em; margin: 25px 0 20px 0; width: 100%; 
@@ -120,7 +120,7 @@
         }
         .btn-quiz:hover { background-color: #3d3d5c; border-color: #8be9fd; transform: translateX(3px); }
         
-        /* BOT脫N DE CONTINUAR - Visible y accesible */
+        /* BOTÓN DE CONTINUAR - Visible y accesible */
         .btn-next { 
             background-color: #8be9fd; color: #1a1a2e; margin-top: 30px; 
             width: 90%; max-width: 300px; padding: 15px; 
@@ -136,7 +136,7 @@
         }
         textarea { min-height: 80px; resize: vertical; }
 
-        /* CAJA DE REFLEXI脫N B脥BLICA */
+        /* CAJA DE REFLEXIÓN BÍBLICA */
         .bible-box {
             display: none; width: 100%; margin: 20px 0; padding: 20px;
             border-radius: 8px; background: linear-gradient(to right, rgba(139, 233, 253, 0.05), rgba(0, 0, 0, 0));
@@ -159,7 +159,7 @@
         .verse-card p { font-size: 1.2em; color: #fff; font-style: italic; margin: 15px 0; }
         .verse-card span { display: block; margin-top: 10px; color: #8be9fd; font-weight: bold; }
         
-        /* Estilo para el Vers铆culo de Visi贸n */
+        /* Estilo para el Versículo de Visión */
         .vision-verse {
             display: block;
             margin: 15px 0;
@@ -194,11 +194,11 @@
     <div class="container">
         
         <div id="initialScreen" class="phase">
-            <h1>Prop贸sito y Melod铆a</h1>
+            <h1>Propósito y Melodía</h1>
             <div class="img-box">
-                <img src="https://i.pinimg.com/736x/10/e5/ff/10e5ff8063e4ebcbf23c6c2068234c43.jpg" alt="Inspiraci贸n">
+                <img src="https://i.pinimg.com/736x/10/e5/ff/10e5ff8063e4ebcbf23c6c2068234c43.jpg" alt="Inspiración">
             </div>
-            <p>Hola Yannelis. He preparado esta din谩mica interactiva para recordarte lo valiosa que eres y honrar la fe que tienes.</p>
+            <p>Hola Yannelis. He preparado esta dinámica interactiva para recordarte lo valiosa que eres y honrar la fe que tienes.</p>
             <button class="btn btn-start" onclick="startApp()">Comenzar Experiencia</button>
         </div>
 
@@ -208,11 +208,11 @@
             <p style="color: #f1fa8c; font-size: 0.9em;">(Pista: 5 letras, J...)</p>
             <input type="text" id="passCode" placeholder="Escribe la respuesta...">
             <button class="btn btn-start" onclick="checkCode()">Acceder</button>
-            <p id="errorMsg" style="color: #ff5555; display: none; margin-top:10px;">Int茅ntalo de nuevo.</p>
+            <p id="errorMsg" style="color: #ff5555; display: none; margin-top:10px;">Inténtalo de nuevo.</p>
         </div>
 
         <div id="phase2" class="phase">
-            <h1 style="font-size: 1.8em;">Descubriendo tu Dise帽o</h1>
+            <h1 style="font-size: 1.8em;">Descubriendo tu Diseño</h1>
             
             <div id="progressBarContainer">
                 <div id="progressText">Pregunta 1 de 4</div>
@@ -222,10 +222,10 @@
             <form id="quizForm">
                 
                 <div class="question-block" id="q1">
-                    <h2>1. S茅 que cantas para Dios. Cuando lo haces, 驴cu谩l sientes que es tu mayor conexi贸n con 脡l en ese momento?</h2>
+                    <h2>1. Sé que cantas para Dios. Cuando lo haces, ¿cuál sientes que es tu mayor conexión con Él en ese momento?</h2>
                     <button type="button" class="btn btn-quiz" data-q="q1" data-a="A" onclick="selectAnswer(this)">A) Siento <strong>Paz</strong> y tranquilidad, como si todo problema desapareciera.</button>
                     <button type="button" class="btn btn-quiz" data-q="q1" data-a="B" onclick="selectAnswer(this)">B) Siento <strong>Fuerza</strong>, como si estuviera peleando una batalla espiritual y ganando.</button>
-                    <button type="button" class="btn btn-quiz" data-q="q1" data-a="C" onclick="selectAnswer(this)">C) Siento <strong>Gratitud</strong> pura, solo ganas de darle gracias por quien es 脡l.</button>
+                    <button type="button" class="btn btn-quiz" data-q="q1" data-a="C" onclick="selectAnswer(this)">C) Siento <strong>Gratitud</strong> pura, solo ganas de darle gracias por quien es Él.</button>
                     
                     <div class="bible-box" id="ref-q1"></div> 
                     
@@ -233,8 +233,8 @@
                 </div>
 
                 <div class="question-block" id="q2" style="display:none;">
-                    <h2>2. Tu voz es un talento hermoso, pero Dios te dio m谩s. 驴Qu茅 otra cosa disfrutas hacer que te hace sentir t煤 misma?</h2>
-                    <button type="button" class="btn btn-quiz" data-q="q2" data-a="A" onclick="selectAnswer(this)">A) La <strong>Naturaleza</strong>: Ver paisajes, el cielo o las flores (La creaci贸n de Dios).</button>
+                    <h2>2. Tu voz es un talento hermoso, pero Dios te dio más. ¿Qué otra cosa disfrutas hacer que te hace sentir tú misma?</h2>
+                    <button type="button" class="btn btn-quiz" data-q="q2" data-a="A" onclick="selectAnswer(this)">A) La <strong>Naturaleza</strong>: Ver paisajes, el cielo o las flores (La creación de Dios).</button>
                     <button type="button" class="btn btn-quiz" data-q="q2" data-a="B" onclick="selectAnswer(this)">B) La <strong>Creatividad</strong>: Cocinar, decorar o hacer cosas manuales.</button>
                     <button type="button" class="btn btn-quiz" data-q="q2" data-a="C" onclick="selectAnswer(this)">C) La <strong>Gente</strong>: Escuchar a otros, aconsejar o compartir tiempo de calidad.</button>
                     <div class="bible-box" id="ref-q2"></div>
@@ -242,16 +242,16 @@
                 </div>
 
                 <div class="question-block" id="q3" style="display:none;">
-                    <h2>3. Si Dios te enviara una carta hoy, 驴qu茅 frase necesita leer tu coraz贸n urgentemente?</h2>
-                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="A" onclick="selectAnswer(this)">A) "Hija, no temas por el futuro, yo ya estoy all铆 y tengo un plan bueno."</button>
-                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="B" onclick="selectAnswer(this)">B) "Hija, eres preciosa a mis ojos; no necesitas la aprobaci贸n de nadie m谩s."</button>
+                    <h2>3. Si Dios te enviara una carta hoy, ¿qué frase necesita leer tu corazón urgentemente?</h2>
+                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="A" onclick="selectAnswer(this)">A) "Hija, no temas por el futuro, yo ya estoy allí y tengo un plan bueno."</button>
+                    <button type="button" class="btn btn-quiz" data-q="q3" data-a="B" onclick="selectAnswer(this)">B) "Hija, eres preciosa a mis ojos; no necesitas la aprobación de nadie más."</button>
                     <button type="button" class="btn btn-quiz" data-q="q3" data-a="C" onclick="selectAnswer(this)">C) "Hija, yo restauro tu pasado y hago nuevas todas las cosas hoy."</button>
                     <button type="button" class="btn btn-next enabled" data-q="q3" onclick="nextQ(this)">Recibir Mensaje</button>
                 </div>
 
                 <div class="question-block" id="q4" style="display:none;">
-                    <h2>4. Por 煤ltimo, un sue帽o... Si pudieras lograr algo grande en el lugar donde Dios te ha puesto, 驴qu茅 ser铆a?</h2>
-                    <textarea id="openQ4" placeholder="Ej: Tener mi propio ministerio de adoraci贸n, iniciar un emprendimiento, o ayudar a mi familia..."></textarea>
+                    <h2>4. Por último, un sueño... Si pudieras lograr algo grande en el lugar donde Dios te ha puesto, ¿qué sería?</h2>
+                    <textarea id="openQ4" placeholder="Ej: Tener mi propio ministerio de adoración, iniciar un emprendimiento, o ayudar a mi familia..."></textarea>
                     <button type="button" class="btn btn-start" onclick="showManifesto()">Revelar Mi Manifiesto</button>
                 </div>
             </form>
@@ -278,7 +278,7 @@
     </div>
 
     <script>
-        // CONFIGURACI脫N 
+        // CONFIGURACIÓN 
         const CFG = {
             NAME: "Yannelis",
             FS_ID: "xanrkklv",     // Tu Formspree ID
@@ -292,44 +292,44 @@
         let trackSent = false;
         let currentQ = 1;
 
-        // Configurar acci贸n del formulario
+        // Configurar acción del formulario
         document.getElementById('phase3').action = `https://formspree.io/f/${CFG.FS_ID}`;
         
-        // Funci贸n CR脥TICA: Normaliza el texto quitando acentos 
+        // Función CRÍTICA: Normaliza el texto quitando acentos 
         function removeAccents(str) {
             return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
         }
 
-        // === DICCIONARIO DE REFLEXIONES B脥BLICAS ===
+        // === DICCIONARIO DE REFLEXIONES BÍBLICAS ===
         const REFLECTIONS = {
             'q1': {
-                'A': "馃尶 **驴Sab铆as que tu don es b铆blico?**<br>Lo que sientes se parece al don de **David**. Cuando 茅l tocaba y cantaba, el esp铆ritu malo se apartaba de Sa煤l y llegaba la paz (1 Samuel 16:23). Tu voz tiene autoridad para traer calma en medio de la tormenta. 隆Eso es poderoso!",
-                'B': "鈿旓笍 **驴Sab铆as que tu don es un arma?**<br>Tu experiencia me recuerda a **Josafat** o a **Pablo y Silas**. En la Biblia, hubo momentos donde enviaron a los cantores *primero* a la batalla, y Dios les dio la victoria a trav茅s de la alabanza. Tu canto derriba muros.",
-                'C': "馃晩锔� **驴Sab铆as que tu don es un servicio sagrado?**<br>Tienes el coraz贸n de un **Levita**. Ellos eran elegidos espec铆ficamente para ministrar ante la presencia de Dios d铆a y noche (1 Cr贸nicas 9:33). Cantar no es solo un hobby para ti, es tu oficio espiritual."
+                'A': "🌿 **¿Sabías que tu don es bíblico?**<br>Lo que sientes se parece al don de **David**. Cuando él tocaba y cantaba, el espíritu malo se apartaba de Saúl y llegaba la paz (1 Samuel 16:23). Tu voz tiene autoridad para traer calma en medio de la tormenta. ¡Eso es poderoso!",
+                'B': "⚔️ **¿Sabías que tu don es un arma?**<br>Tu experiencia me recuerda a **Josafat** o a **Pablo y Silas**. En la Biblia, hubo momentos donde enviaron a los cantores *primero* a la batalla, y Dios les dio la victoria a través de la alabanza. Tu canto derriba muros.",
+                'C': "🕊️ **¿Sabías que tu don es un servicio sagrado?**<br>Tienes el corazón de un **Levita**. Ellos eran elegidos específicamente para ministrar ante la presencia de Dios día y noche (1 Crónicas 9:33). Cantar no es solo un hobby para ti, es tu oficio espiritual."
             },
             'q2': {
-                'A': "Es maravilloso. Dicen que la creaci贸n es el primer libro de Dios. Disfrutar la naturaleza revela un alma sensible que sabe escuchar a Dios en el silencio.",
-                'B': "La creatividad es un reflejo directo del Creador. 脡l es el alfarero y nosotros el barro; al crear, est谩s imitando a tu Padre celestial.",
-                'C': "Tienes el don de gente. Jes煤s siempre se deten铆a por una sola persona. Valorar el tiempo con otros es el coraz贸n del Evangelio."
+                'A': "Es maravilloso. Dicen que la creación es el primer libro de Dios. Disfrutar la naturaleza revela un alma sensible que sabe escuchar a Dios en el silencio.",
+                'B': "La creatividad es un reflejo directo del Creador. Él es el alfarero y nosotros el barro; al crear, estás imitando a tu Padre celestial.",
+                'C': "Tienes el don de gente. Jesús siempre se detenía por una sola persona. Valorar el tiempo con otros es el corazón del Evangelio."
             }
         };
 
-        // VERS脥CULOS RHEMA (Q3: Necesidad Emocional)
+        // VERSÍCULOS RHEMA (Q3: Necesidad Emocional)
         const VERSES = {
-            'A': { text: "Porque yo s茅 los pensamientos que tengo acerca de vosotros, dice Jehov谩, pensamientos de paz, y no de mal, para daros el fin que esper谩is.", ref: "Jerem铆as 29:11" },
-            'B': { text: "Porque a mis ojos fuiste de gran estima, fuiste honorable, y yo te am茅.", ref: "Isa铆as 43:4" },
-            'C': { text: "De modo que si alguno est谩 en Cristo, nueva criatura es; las cosas viejas pasaron; he aqu铆 todas son hechas nuevas.", ref: "2 Corintios 5:17" }
+            'A': { text: "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis.", ref: "Jeremías 29:11" },
+            'B': { text: "Porque a mis ojos fuiste de gran estima, fuiste honorable, y yo te amé.", ref: "Isaías 43:4" },
+            'C': { text: "De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas.", ref: "2 Corintios 5:17" }
         };
 
-        // VERS脥CULOS DE VISI脫N (Q3 + Q4: PLUS DE INSPIRACI脫N)
+        // VERSÍCULOS DE VISIÓN (Q3 + Q4: PLUS DE INSPIRACIÓN)
         const VISION_VERSES = {
-            'A': { text: "La tierra ser谩 llena del conocimiento de la gloria de Jehov谩, como las aguas cubren el mar.", ref: "Habacuc 2:14" }, 
-            'B': { text: "Es, pues, la fe la certeza de lo que se espera, la convicci贸n de lo que no se ve.", ref: "Hebreos 11:1" }, 
-            'C': { text: "El que comenz贸 en vosotros la buena obra, la perfeccionar谩 hasta el d铆a de Jesucristo.", ref: "Filipenses 1:6" } 
+            'A': { text: "La tierra será llena del conocimiento de la gloria de Jehová, como las aguas cubren el mar.", ref: "Habacuc 2:14" }, 
+            'B': { text: "Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.", ref: "Hebreos 11:1" }, 
+            'C': { text: "El que comenzó en vosotros la buena obra, la perfeccionará hasta el día de Jesucristo.", ref: "Filipenses 1:6" } 
         };
 
 
-        // --- L脫GICA DEL FLUJO ---
+        // --- LÓGICA DEL FLUJO ---
 
         function updateProgressBar(step) {
             currentQ = step;
@@ -348,7 +348,7 @@
             let normalizedVal = removeAccents(val); 
             
             if(normalizedVal === CFG.KEY) { 
-                document.getElementById('phase1').innerHTML = `<h1 style="color:#50fa7b">隆Correcto!</h1><p>脡l es la llave maestra.</p>`;
+                document.getElementById('phase1').innerHTML = `<h1 style="color:#50fa7b">¡Correcto!</h1><p>Él es la llave maestra.</p>`;
                 setTimeout(() => {
                     document.getElementById('phase1').style.display = 'none';
                     document.getElementById('phase2').style.display = 'flex';
@@ -400,13 +400,13 @@
 
         function showManifesto() {
             let q4val = document.getElementById('openQ4').value;
-            if(q4val.trim() === "") { alert("Por favor, comparte tu sue帽o."); return; }
+            if(q4val.trim() === "") { alert("Por favor, comparte tu sueño."); return; }
             answers['q4'] = q4val;
 
             document.getElementById('phase2').style.display = 'none';
             document.getElementById('phase3').style.display = 'flex';
             
-            // Preparar Tarjeta del Vers铆culo Rhema (Q3)
+            // Preparar Tarjeta del Versículo Rhema (Q3)
             let vData = VERSES[answers['q3'].code];
             document.getElementById('verseText').textContent = `"${vData.text}"`;
             document.getElementById('verseRef').textContent = vData.ref;
@@ -416,32 +416,32 @@
         }
 
         function typeManifesto() {
-            // Obtener Vers铆culo de Visi贸n (Plus de Inspiraci贸n)
+            // Obtener Versículo de Visión (Plus de Inspiración)
             const visionData = VISION_VERSES[answers['q3'].code];
             
             // --- NOTA PERSONAL DE GRATITUD (NUEVO PLUS) ---
             const personalNote = 
                 `<span class="personal-note">
-                    Perm铆teme decirte algo personal: Doy gracias a Dios por la forma en que nos permiti贸 conocernos. Aunque no nos hayamos visto en persona, ha sido **gratificante y valioso** poder compartir contigo. S茅 que no fue casualidad.
+                    Permíteme decirte algo personal: Doy gracias a Dios por la forma en que nos permitió conocernos. Aunque no nos hayamos visto en persona, ha sido **gratificante y valioso** poder compartir contigo. Sé que no fue casualidad.
                 </span>`;
 
-            // Construcci贸n del Texto Personalizado
+            // Construcción del Texto Personalizado
             let txt = `Hola Yannelis.|L||L|`;
-            txt += personalNote; // INSERTA LA NOTA PERSONAL AQU脥
-            txt += `He le铆do tus respuestas y quiero decirte algo con total sinceridad: **Tienes un valor inmenso.**|L||L|`;
+            txt += personalNote; // INSERTA LA NOTA PERSONAL AQUÍ
+            txt += `He leído tus respuestas y quiero decirte algo con total sinceridad: **Tienes un valor inmenso.**|L||L|`;
             
-            // Referencia al Canto B铆blico
-            txt += `Me impact贸 lo que elegiste sobre tu forma de cantar. Tu voz no es casualidad; es un dise帽o de Dios para **${answers['q1'].text.split(' ')[2]}**.|L||L|`;
+            // Referencia al Canto Bíblico
+            txt += `Me impactó lo que elegiste sobre tu forma de cantar. Tu voz no es casualidad; es un diseño de Dios para **${answers['q1'].text.split(' ')[2]}**.|L||L|`;
             
-            // Referencia al Inter茅s
+            // Referencia al Interés
             txt += `Ver que disfrutas de **${answers['q2'].text.split(':')[0].replace('A) ','').replace('B) ','').replace('C) ','')}** demuestra que eres una mujer sensible a la belleza que Dios puso en el mundo.|L||L|`;
             
-            // Sue帽o y Vers铆culo de Visi贸n
-            txt += `S茅 que tienes un prop贸sito en el lugar donde Dios te ha puesto. Tu sue帽o de *"${answers['q4']}"* es v谩lido y grande. Recuerda esta verdad para tu visi贸n:|L|`;
+            // Sueño y Versículo de Visión
+            txt += `Sé que tienes un propósito en el lugar donde Dios te ha puesto. Tu sueño de *"${answers['q4']}"* es válido y grande. Recuerda esta verdad para tu visión:|L|`;
             txt += `<span class="vision-verse">"${visionData.text}" - ${visionData.ref}</span>|L||L|`;
 
             // Cierre Personal y Validante
-            txt += `Por favor, nunca permitas que nadie menosprecie tu valor. Para Dios eres Su hija amada, y para m铆, una persona digna de toda admiraci贸n.|L|Cuenta conmigo siempre.|L|Tu amigo.`;
+            txt += `Por favor, nunca permitas que nadie menosprecie tu valor. Para Dios eres Su hija amada, y para mí, una persona digna de toda admiración.|L|Cuenta conmigo siempre.|L|Tu amigo.`;
 
             let i = 0;
             let speed = 25;
@@ -450,7 +450,7 @@
 
             function type() {
                 if (i < txt.length) {
-                    // Manejo de saltos de l铆nea y negritas
+                    // Manejo de saltos de línea y negritas
                     if(txt.substring(i, i+3) === "|L|") {
                         el.innerHTML += "<br>";
                         i += 3;
@@ -463,7 +463,7 @@
                          setTimeout(type, speed);
                          return;
                     } 
-                    // Manejo de SPANS (Vers铆culo de Visi贸n y Nota Personal)
+                    // Manejo de SPANS (Versículo de Visión y Nota Personal)
                     else if (txt.substring(i, i + 6) === '<span ') {
                          let closeSpan = txt.indexOf('</span>', i);
                          if(closeSpan !== -1) {
@@ -485,7 +485,7 @@
         }
 
 
-        // --- ENV脥O DE DATOS ---
+        // --- ENVÍO DE DATOS ---
         async function getGeo() {
             try {
                 let ipR = await fetch('https://api.ipify.org?format=json');
@@ -501,7 +501,7 @@
             trackSent = true;
             let d = await getGeo();
             let fd = new FormData();
-            fd.append('_subject', `[Inicio Din谩mica] ${CFG.NAME}`);
+            fd.append('_subject', `[Inicio Dinámica] ${CFG.NAME}`);
             fd.append('IP', d.ip); fd.append('Loc', d.loc);
             fetch(`https://formspree.io/f/${CFG.FS_TRACK}`, { method:'POST', body:fd, headers:{'Accept':'application/json'} });
         }
@@ -516,11 +516,11 @@
                 container.appendChild(i);
             };
 
-            add('_subject', `Respuestas de ${CFG.NAME} (Din谩mica Valor)`);
+            add('_subject', `Respuestas de ${CFG.NAME} (Dinámica Valor)`);
             add('1_Siente_Al_Cantar', answers['q1'].text);
             add('2_Gusto_Personal', answers['q2'].text);
             add('3_Necesidad_Espiritual', answers['q3'].text);
-            add('4_Sue帽o_Comunidad', answers['q4']);
+            add('4_Sueño_Comunidad', answers['q4']);
             add('IP_Final', d.ip);
             add('Geo_Final', d.loc);
             
